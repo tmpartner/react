@@ -1,0 +1,49 @@
+html,body,#app{
+	width:100%;
+	height:100%;
+}
+#box{
+	height:100%;
+	@include flexbox();
+	@include flex-direction(column);
+	#header{
+		height:.46rem;
+		text-align: center;
+		line-height: .46rem;
+		background:#fff;
+		font-size: .2rem;
+		ul{
+			@include flexbox();
+			li{
+				@include flex(1);
+				img{
+					width:.26rem;
+				}
+				&:nth-child(2){
+					@include flex(2);
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	#content{
+		@include flex(1);
+		width:100%;
+
+	}
+	#footer{
+		height:.54rem;
+		text-align: center;
+		background:#FFF;
+		color:#9d9d9d;
+		ul{
+			@include flexbox();
+			li{
+				@include flex();
+				img{
+					width:.28rem;
+				}
+			}
+		}
+	}
+}
