@@ -22,13 +22,12 @@ module.exports = {
         loader: ET.extract('style', 'css!sass')
       },{
         test:/\.js$/,
-         loader:'babel'
-      },
-      {
-        test: /\.js$/,
-        //loader: 'babel-loader?presets[]=es2015',
-        loader: 'jsx-loader'
-      }]
+         loader:'babel',
+         query:
+          {
+            presets:['react']
+          }
+    }]
   },
   devServer: {
     contentBase: __dirname + '/prd',

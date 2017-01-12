@@ -1,10 +1,9 @@
 require("./styles/usage/app.scss")
-var Header=require("./scripts/header")
-var Root=require("./scripts/root")
-var Footer=require("./scripts/footer")
+import Root from './scripts/root'
+import Header from './scripts/header'
+import Footer from './scripts/footer'
 
 
 ReactDOM.render(<Root/>,document.getElementById('app'))
 ReactDOM.render(<Header/>,document.getElementById('header'))
 ReactDOM.render(<Footer/>,document.getElementById('footer'))
-

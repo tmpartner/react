@@ -44,65 +44,222 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	__webpack_require__(1);
-	var Header = __webpack_require__(5);
-	var Root = __webpack_require__(6);
-	var Footer = __webpack_require__(7);
+	var _root = __webpack_require__(1);
 
-	ReactDOM.render(React.createElement(Root, null), document.getElementById('app'));
-	ReactDOM.render(React.createElement(Header, null), document.getElementById('header'));
-	ReactDOM.render(React.createElement(Footer, null), document.getElementById('footer'));
+	var _root2 = _interopRequireDefault(_root);
+
+	var _header = __webpack_require__(2);
+
+	var _header2 = _interopRequireDefault(_header);
+
+	var _footer = __webpack_require__(3);
+
+	var _footer2 = _interopRequireDefault(_footer);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	__webpack_require__(4);
+
+
+	ReactDOM.render(React.createElement(_root2.default, null), document.getElementById('app'));
+	ReactDOM.render(React.createElement(_header2.default, null), document.getElementById('header'));
+	ReactDOM.render(React.createElement(_footer2.default, null), document.getElementById('footer'));
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Root = function (_React$Component) {
+		_inherits(Root, _React$Component);
+
+		function Root() {
+			_classCallCheck(this, Root);
+
+			return _possibleConstructorReturn(this, (Root.__proto__ || Object.getPrototypeOf(Root)).apply(this, arguments));
+		}
+
+		_createClass(Root, [{
+			key: "render",
+			value: function render() {
+				return React.createElement(
+					"div",
+					{ id: "box" },
+					React.createElement("div", { id: "header" }),
+					React.createElement("div", { id: "content" }),
+					React.createElement("div", { id: "footer" })
+				);
+			}
+		}]);
+
+		return Root;
+	}(React.Component);
+
+	exports.default = Root;
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Header = function (_React$Component) {
+		_inherits(Header, _React$Component);
+
+		function Header() {
+			_classCallCheck(this, Header);
+
+			return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+		}
+
+		_createClass(Header, [{
+			key: "render",
+			value: function render() {
+				return React.createElement(
+					"div",
+					null,
+					React.createElement(
+						"ul",
+						null,
+						React.createElement("li", null),
+						React.createElement(
+							"li",
+							null,
+							"\u9996\u9875"
+						),
+						React.createElement(
+							"li",
+							null,
+							React.createElement("img", { src: "/images/home_search_black_icon.png" })
+						)
+					)
+				);
+			}
+		}]);
+
+		return Header;
+	}(React.Component);
+
+	exports.default = Header;
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Footer = function (_React$Component) {
+		_inherits(Footer, _React$Component);
+
+		function Footer() {
+			_classCallCheck(this, Footer);
+
+			return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+		}
+
+		_createClass(Footer, [{
+			key: "render",
+			value: function render() {
+				return React.createElement(
+					"div",
+					null,
+					React.createElement(
+						"ul",
+						null,
+						React.createElement(
+							"li",
+							null,
+							React.createElement("img", { src: "/images/widget_bar_home_nor.png" }),
+							React.createElement(
+								"p",
+								null,
+								"\u9996\u9875"
+							)
+						),
+						React.createElement(
+							"li",
+							null,
+							React.createElement("img", { src: "/images/widget_bar_location_nor.png" }),
+							React.createElement(
+								"p",
+								null,
+								"\u4E61\u60C5\u9986"
+							)
+						),
+						React.createElement(
+							"li",
+							null,
+							React.createElement("img", { src: "/images/widget_bar_cart_nor.png" }),
+							React.createElement(
+								"p",
+								null,
+								"\u8D2D\u7269\u8F66"
+							)
+						),
+						React.createElement(
+							"li",
+							null,
+							React.createElement("img", { src: "/images/widget_bar_me_nor.png" }),
+							React.createElement(
+								"p",
+								null,
+								"\u6211\u7684"
+							)
+						)
+					)
+				);
+			}
+		}]);
+
+		return Footer;
+	}(React.Component);
+
+	exports.default = Footer;
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
 	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	var Header = React.createClass({ displayName: "Header",
-		render: function render() {
-			return React.createElement("div", null, React.createElement("ul", null, React.createElement("li", null), React.createElement("li", null, "首页"), React.createElement("li", null, React.createElement("img", { src: "/images/home_search_black_icon.png" }))));
-		}
-	});
-	module.exports = Header;
-
-/***/ },
-/* 6 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	var Root = React.createClass({ displayName: "Root",
-		render: function render() {
-			return React.createElement("div", { id: "box" }, React.createElement("div", { id: "header" }), React.createElement("div", { id: "content" }), React.createElement("div", { id: "footer" }));
-		}
-	});
-	module.exports = Root;
-
-/***/ },
-/* 7 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	var Footer = React.createClass({ displayName: "Footer",
-		render: function render() {
-			return React.createElement("div", null, React.createElement("ul", null, React.createElement("li", null, React.createElement("img", { src: "/images/widget_bar_home_nor.png" }), React.createElement("p", null, "首页")), React.createElement("li", null, React.createElement("img", { src: "/images/widget_bar_location_nor.png" }), React.createElement("p", null, "乡情馆")), React.createElement("li", null, React.createElement("img", { src: "/images/widget_bar_cart_nor.png" }), React.createElement("p", null, "购物车")), React.createElement("li", null, React.createElement("img", { src: "/images/widget_bar_me_nor.png" }), React.createElement("p", null, "我的"))));
-		}
-	});
-
-	module.exports = Footer;
 
 /***/ }
 /******/ ]);
