@@ -1,0 +1,72 @@
+[
+  {
+    "id":1,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"【旺进炒货】江苏特产 坚果炒货 巴西松子 500g 休闲零食",
+    "price":200,
+    "imgSrc":"/images/a1.jpg"
+  },
+  {
+    "id":2,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"【柚惑多】福建平和县琯溪蜜柚红心柚子新鲜水果包邮",
+    "price":123,
+    "imgSrc":"/images/a2.jpg"
+  },
+  {
+    "id":3,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"【同富果业】赣南脐橙 10kg 新鲜水果橙子",
+    "price":43,
+    "imgSrc":"/images/a3.jpg"
+  },
+  {
+    "id":4,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"【徐伟敏】浙江胡柚 20斤55元一箱",
+    "price":54,
+    "imgSrc":"/images/a4.jpg"
+  },
+  {
+    "id":5,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"【柚香甜】上杭县新鲜水果  一级 百香果 包邮",
+    "price":89,
+    "imgSrc":"/images/a5.jpg"
+  },
+  {
+    "id":6,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"楠溪江大魁杨梅3A级3斤 原产地直销",
+    "price":90,
+    "imgSrc":"/images/a6.jpg"
+  },
+  {
+    "id":7,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"三联果蔬  安徽砀山新鲜水果砀山酥梨",
+    "price":21,
+    "imgSrc":"/images/a7.jpg"
+  },
+  {
+    "id":8,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"【瑞谷】临安小香薯 红薯3斤装 包邮",
+    "price":67,
+    "imgSrc":"/images/a8.jpg"
+  },
+  {
+    "id":9,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"【太白山】 猕猴桃   单果70-80g   五斤装",
+    "price":800,
+    "imgSrc":"/images/a9.jpg"
+  },
+  {
+    "id":10,
+    "banner":["/images/1.jpg","/images/2.jpg","/images/3.jpg","/images/4.jpg","/images/5.jpg"],
+    "goodName":"【鲜果优选】临海 涌泉 蜜桔 蜜橘5斤装 无核桔子 柑橘子 新鲜水果",
+    "price":28,
+    "imgSrc":"/images/a10.jpg"
+  }
+]

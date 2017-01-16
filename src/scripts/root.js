@@ -3,7 +3,10 @@ class Root extends React.Component{
 		return(
 			<div id="box">
 				<div id="header"></div>
-				<div id="content"></div>
+				<div id="content">
+					  <div id="xqg">
+						</div>
+				</div>
 				<div id="footer"></div>
 			</div>
 		)

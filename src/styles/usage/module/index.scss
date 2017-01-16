@@ -3,6 +3,9 @@ html,body,#app{
 	height:100%;
 }
 #box{
+	a{
+		color: #666;
+	}
 	height:100%;
 	@include flexbox();
 	@include flex-direction(column);
