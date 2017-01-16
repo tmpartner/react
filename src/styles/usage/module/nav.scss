@@ -1,0 +1,20 @@
+#nav{
+  height:2.14rem;
+  width:100%;
+  ul{
+    width:100%;
+    background: #fff;
+    text-align: center;
+    @include flexbox();
+    @include flex-wrap(wrap);
+    height:2.14rem;
+    li{
+      width:25%;
+      height:50%;
+      img{
+        margin-top:.2rem;
+        width:.58rem;
+      }
+    }
+  }
+}

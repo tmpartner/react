@@ -10,10 +10,17 @@
 	<script src="/libs/iscroll-probe.js"></script>
 	<script src="/libs/swiper.js"></script>
 	<script src="/libs/zepto.min.js"></script>
-	
+
 </head>
 <body>
 	<div id="app"></div>
 	<script src="/bundle.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+			loop : true
+    });
+  </script>
 </body>
 </html>
