@@ -1,0 +1,43 @@
+a{
+  color:#666;
+}
+%header{
+  #header{
+		height:.46rem;
+		text-align: center;
+		line-height: .46rem;
+		background:#fff;
+		font-size: .2rem;
+		ul{
+			@include flexbox();
+			li{
+				@include flex(1);
+				img{
+					width:.26rem;
+				}
+				&:nth-child(2){
+					@include flex(2);
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+%footer{
+  #footer{
+		height:.54rem;
+		text-align: center;
+		background:#FFF;
+		color:#9d9d9d;
+		ul{
+			@include flexbox();
+			li{
+				@include flex();
+				img{
+					width:.28rem;
+				}
+			}
+		}
+	}
+}
